@@ -1,14 +1,17 @@
 import Head from "next/head";
-import styles from "../styles/Layout.module.css"
+import styles from "../styles/Layout.module.css";
+import Header from "./Header";
 
 export default function Layout({title, children}) {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>{title}</title>
       </Head>
 
-      <main className={styles.container}>{children}</main>
+      <Header />
+
+      <main>{children}</main>
     </div>
   )
 }
