@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from "../styles/Layout.module.css"
 
 export default function Layout({title, children}) {
   return (
@@ -7,7 +8,7 @@ export default function Layout({title, children}) {
         <title>{title}</title>
       </Head>
 
-      <main>{children}</main>
+      <main className={styles.container}>{children}</main>
     </div>
   )
 }
