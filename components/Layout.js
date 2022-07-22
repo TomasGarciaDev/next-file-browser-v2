@@ -1,7 +1,17 @@
-import Head from "next/head":
+import Head from "next/head";
 
-export default function Layout() {
+export default function Layout({title, children}) {
   return (
-    <div>Layout</div>
+    <div>
+      <Head>
+        <title>{title}</title>
+      </Head>
+
+      <main>{children}</main>
+    </div>
   )
+}
+
+Layout.defaultProps = {
+  title: "File Browser"
 }
