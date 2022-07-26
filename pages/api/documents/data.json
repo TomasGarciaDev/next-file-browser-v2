@@ -1,0 +1,20 @@
+{
+  "documents": [
+    {
+      "id": "1",
+      "name": "My Essay"
+    },
+    {
+      "id": "2",
+      "name": "How to write great API"
+    },
+    {
+      "id": "3",
+      "name": "My thoughts on Next.js"
+    },
+    {
+      "id": "4",
+      "name": "My thoughts on Next.js"
+    }
+  ]
+}

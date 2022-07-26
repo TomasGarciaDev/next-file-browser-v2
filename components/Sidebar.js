@@ -1,9 +1,9 @@
 import styles from '../styles/Sidebar.module.css'
 
-export default function Sidebar() {
+export default function Sidebar({children}) {
   return (
     <aside className={styles.container}>
-      <h1>Hello</h1>
+      <div>{children}</div>
     </aside>
   )
 }
