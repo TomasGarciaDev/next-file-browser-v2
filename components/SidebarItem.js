@@ -1,13 +1,14 @@
 import styles from '../styles/SidebarItem.module.css';
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 
-export default function SidebarItem({ icon, title}) {
+export default function SidebarItem({ icon, title, setFiles}) {
   const [data, setData] = useState([])
 
-  const handleSubmit = (e) => {
+  const handleClick = (e) => {
+    e.preventDefault()
     getData()
 
-    console.log(data)
+    // console.log(data)
   }
 
   const getData = () => {
@@ -15,11 +16,12 @@ export default function SidebarItem({ icon, title}) {
         .then((res) => res.json())
         .then((data) => {
           setData(data)
+          setFiles(data)
         })
   }
 
   return (
-    <div className={styles.container}id={title.toLowerCase()} onClick={handleSubmit}>
+    <div className={styles.container} id={title.toLowerCase()} onClick={handleClick}>
       <h4>{ icon } { title }</h4>
     </div>
   )

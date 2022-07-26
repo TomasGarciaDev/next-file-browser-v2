@@ -1,9 +1,10 @@
 import styles from '../styles/Files.module.css';
 
-export default function Files() {
+export default function Files({children, data}) {
+
   return (
     <div className={styles.container}>
-      <h1>Files</h1>
+      {children}
     </div>
   )
 }
