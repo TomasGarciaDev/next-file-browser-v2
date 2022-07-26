@@ -1,0 +1,20 @@
+{
+  "pictures": [
+    {
+      "id": "1",
+      "name": "Spring"
+    },
+    {
+      "id": "2",
+      "name": "Summer"
+    },
+    {
+      "id": "3",
+      "name": "Autumn"
+    },
+    {
+      "id": "4",
+      "name": "Winter"
+    }
+  ]
+}

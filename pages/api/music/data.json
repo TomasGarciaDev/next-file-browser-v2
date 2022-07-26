@@ -1,0 +1,20 @@
+{
+  "music": [
+    {
+      "id": "1",
+      "name": "Running Up the Hill"
+    },
+    {
+      "id": "2",
+      "name": "Start Me Up"
+    },
+    {
+      "id": "3",
+      "name": "Band on the Run"
+    },
+    {
+      "id": "4",
+      "name": "Hey Jude"
+    }
+  ]
+}
