@@ -2,19 +2,23 @@
   "music": [
     {
       "id": "1",
-      "name": "Running Up the Hill"
+      "name": "Running Up the Hill",
+      "image": "/images/sample/music.jpg"
     },
     {
       "id": "2",
-      "name": "Start Me Up"
+      "name": "Start Me Up",
+      "image": "/images/sample/music.jpg"
     },
     {
       "id": "3",
-      "name": "Band on the Run"
+      "name": "Band on the Run",
+      "image": "/images/sample/music.jpg"
     },
     {
       "id": "4",
-      "name": "Hey Jude"
+      "name": "Hey Jude",
+      "image": "/images/sample/music.jpg"
     }
   ]
 }

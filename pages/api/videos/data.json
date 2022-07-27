@@ -1,0 +1,24 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "name": "The Advengers",
+      "image": "/images/sample/video.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Batman",
+      "image": "/images/sample/video.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Spiderman",
+      "image": "/images/sample/video.jpg"
+    },
+    {
+      "id": "4",
+      "name": "The Hulk",
+      "image": "/images/sample/video.jpg"
+    }
+  ]
+}

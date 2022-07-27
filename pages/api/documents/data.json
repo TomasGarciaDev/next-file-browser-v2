@@ -2,19 +2,23 @@
   "documents": [
     {
       "id": "1",
-      "name": "My Essay"
+      "name": "My Essay",
+      "image": "/images/sample/pdf.jpg"
     },
     {
       "id": "2",
-      "name": "How to write great API"
+      "name": "How to write great API",
+      "image": "/images/sample/pdf.jpg"
     },
     {
       "id": "3",
-      "name": "My thoughts on Next.js"
+      "name": "My thoughts on Next.js",
+      "image": "/images/sample/pdf.jpg"
     },
     {
       "id": "4",
-      "name": "My thoughts on Next.js"
+      "name": "My thoughts on Next.js",
+      "image": "/images/sample/pdf.jpg"
     }
   ]
 }

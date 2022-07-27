@@ -15,6 +15,7 @@ import { useState } from "react";
 export default function Layout({title}) {
   const [files, setFiles] = useState([])
 
+  console.log(files)
   return (
     <div className={styles.main_container}>
       <Head>
@@ -28,10 +29,10 @@ export default function Layout({title}) {
           <SidebarItem title="Documents" icon={<IoDocumentSharp />} setFiles={setFiles} />
           <SidebarItem title="Pictures" icon={<AiOutlinePicture />} setFiles={setFiles}/>
           <SidebarItem title="Music" icon={<BsMusicNoteBeamed />} setFiles={setFiles}/>
-          <SidebarItem title="Vidoes" icon={<MdOutlineLocalMovies />} setFiles={setFiles}/>
+          <SidebarItem title="Videos" icon={<MdOutlineLocalMovies />} setFiles={setFiles}/>
         </Sidebar>
         <Files >
-          {files.length !== 0 && files.map(file => <FileCard key={file.id}name={file.name} />)}
+          {files.length !== 0 && files.map(file => <FileCard key={file.id} name={file.name} image={file.image}/>)}
         </Files>
         <Preview></Preview>
       </div>

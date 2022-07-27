@@ -2,19 +2,23 @@
   "pictures": [
     {
       "id": "1",
-      "name": "Spring"
+      "name": "Spring.jpg",
+      "image": "/images/sample/spring.jpg"
     },
     {
       "id": "2",
-      "name": "Summer"
+      "name": "Summer.jpg",
+      "image": "/images/sample/summer.jpg"
     },
     {
       "id": "3",
-      "name": "Autumn"
+      "name": "Autumn.jpg",
+      "image": "/images/sample/autumn.jpg"
     },
     {
       "id": "4",
-      "name": "Winter"
+      "name": "Winter.jpg",
+      "image": "/images/sample/winter.jpg"
     }
   ]
 }
