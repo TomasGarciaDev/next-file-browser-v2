@@ -1,5 +1,6 @@
 import styles from '../styles/SidebarItem.module.css';
 import React, { useState} from 'react';
+import { API_URL } from "../config/index";
 
 export default function SidebarItem({ icon, title, setFiles}) {
   const [data, setData] = useState([])
@@ -12,7 +13,7 @@ export default function SidebarItem({ icon, title, setFiles}) {
   }
 
   const getData = () => {
-    fetch(`http://localhost:3000/api/${title.toLowerCase()}`)
+    fetch(`${API_URL}/api/${title.toLowerCase()}`)
         .then((res) => res.json())
         .then((data) => {
           setData(data)

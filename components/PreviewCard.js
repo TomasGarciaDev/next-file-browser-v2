@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../styles/PreviewCard.module.css';
-import Image from 'next/image';
 
 export default function PreviewFile({file}) {
   console.log(file)
