@@ -3,22 +3,38 @@
     {
       "id": "1",
       "name": "My Essay",
-      "image": "/images/sample/pdf.jpg"
+      "image": "/images/sample/pdf.jpg",
+      "type": "PDF file",
+      "size": "10.9 MB",
+      "date_created": "10/09/2019 at 18:51",
+      "date_modified": "27/07/2021 at 1:51"
     },
     {
       "id": "2",
       "name": "How to write great API",
-      "image": "/images/sample/pdf.jpg"
+      "image": "/images/sample/pdf.jpg",
+      "type": "PDF file",
+      "size": "33 KB",
+      "date_created": "10/09/2017 at 18:51",
+      "date_modified": "21/09/2021 at 2:51"
     },
     {
       "id": "3",
       "name": "My thoughts on Next.js",
-      "image": "/images/sample/pdf.jpg"
+      "image": "/images/sample/pdf.jpg",
+      "type": "PDF file",
+      "size": "37 KB",
+      "date_created": "1/09/2017 at 18:51",
+      "date_modified": "21/01/2022 at 13:51"
     },
     {
       "id": "4",
       "name": "My thoughts on Next.js",
-      "image": "/images/sample/pdf.jpg"
+      "image": "/images/sample/pdf.jpg",
+      "type": "PDF file",
+      "size": "88 KB",
+      "date_created": "3/02/2016 at 18:45",
+      "date_modified": "21/06/2021 at 13:05"
     }
   ]
 }

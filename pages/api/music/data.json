@@ -3,22 +3,38 @@
     {
       "id": "1",
       "name": "Running Up the Hill",
-      "image": "/images/sample/music.jpg"
+      "image": "/images/sample/music.jpg",
+      "type": "MP3 file",
+      "size": "4 MB",
+      "date_created": "10/04/2021 at 12:51",
+      "date_modified": "27/01/2022 at 2:51"
     },
     {
       "id": "2",
       "name": "Start Me Up",
-      "image": "/images/sample/music.jpg"
+      "image": "/images/sample/music.jpg",
+      "type": "MP3 file",
+      "size": "4.4 MB",
+      "date_created": "18/04/2021 at 12:51",
+      "date_modified": "27/05/2022 at 22:51"
     },
     {
       "id": "3",
       "name": "Band on the Run",
-      "image": "/images/sample/music.jpg"
+      "image": "/images/sample/music.jpg",
+      "type": "MP3 file",
+      "size": "5.1 MB",
+      "date_created": "10/06/2019 at 12:51",
+      "date_modified": "27/06/2022 at 18:51"
     },
     {
       "id": "4",
       "name": "Hey Jude",
-      "image": "/images/sample/music.jpg"
+      "image": "/images/sample/music.jpg",
+      "type": "MP3 file",
+      "size": "6.1 MB",
+      "date_created": "12/06/2019 at 1:51",
+      "date_modified": "27/01/2021 at 12:51"
     }
   ]
 }

@@ -6,11 +6,11 @@
   margin: 40px;
   padding: 20px;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
-  height: 20%;
+  height: auto;
   vertical-align: top;
   display: inline-block;
   text-align: center;
-  width: 120px;
+  width: 100px;
 }
 
 .container span {

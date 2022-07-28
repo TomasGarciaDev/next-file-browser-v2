@@ -3,12 +3,12 @@
   display: flex;
   flex-wrap: wrap;
   /* width: 300px; */
-  row-gap: 20px;
+  row-gap: 2px;
   /* grid-template-columns: 1fr 1fr 1fr; */
-  row-gap: 1px;
+  /* row-gap: 1px; */
   /* justify-content: space-between; */
   /* align-items: center; */
-  height: 100%;
+  height: auto;
   border-style: solid;
   border-color: rgb(232, 232, 232);
 }
