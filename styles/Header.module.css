@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+  border-style: solid;
+  border-color: rgb(232, 232, 232)
+}
+
+.container h1 {
+  margin: 20px;
+  height: 100%;
+}
+
+.inputBox {
+  margin: 20px;
+  border-color: rgb(232, 232, 232);
+  border-style: solid;
+}
